@@ -1,0 +1,21 @@
+{
+  "name": "ChristmasNight",
+  "displayName": "Christmas Night",
+  "description": "🍷 Cocktail made from cookie crumbs from Santa Claus's beard, Grinch's hair, yesterday's milk, a whisper of star dust, liquid snowflakes, elf's laughter, snowman's carrot and deer's antlers",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Christmas Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Christmas Night-color-theme.json"
+      }
+    ]
+  }
+}

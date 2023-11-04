@@ -1,0 +1,28 @@
+{
+  "name": "christmas-night",
+  "displayName": "Christmas Night",
+  "description": "🍷 Cocktail made from cookie crumbs from Santa Claus's beard, Grinch's hair, yesterday's milk, a whisper of star dust, liquid snowflakes, elf's laughter, snowman's carrot and deer's antlers. Bon appetit!",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "license": "MIT",
+  "publisher": "RuslanRystsov",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueRexPY/ChristmasNight"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Christmas Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/christmas-night-color-theme.json"
+      }
+    ]
+  }
+}
