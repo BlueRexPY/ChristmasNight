@@ -21,9 +21,9 @@
 		"diffEditor.removedTextBackground": "#ff537020",
 		"dropdown.background": "#212121",
 		"dropdown.border": "#ffffff10",
-		"editor.background": "#212121",
-		"editor.findMatchHighlightBackground": "#224136",
-		"editor.findMatchHighlightBorder": "#224136",
+		"editor.background": "#202020",
+		"editor.findMatchHighlightBackground": "#4e552c7c",
+		"editor.findMatchHighlightBorder": "#c8b529a1",
 		"editor.foreground": "#eeffff",
 		"editor.lineHighlightBackground": "#00000050",
 		"editor.selectionBackground": "#2a4e41",
@@ -45,8 +45,8 @@
 		"editorGutter.modifiedBackground": "#82aaff60",
 		"editorHoverWidget.background": "#212121",
 		"editorHoverWidget.border": "#ffffff10",
-		"editorIndentGuide.activeBackground": "#424242",
-		"editorIndentGuide.background": "#42424270",
+		"editorIndentGuide.activeBackground1": "#424242",
+		"editorIndentGuide.background1": "#42424270",
 		"editorLineNumber.activeForeground": "#848484",
 		"editorLineNumber.foreground": "#424242",
 		"editorLink.activeForeground": "#eeffff",
@@ -100,8 +100,8 @@
 		"menubar.selectionBackground": "#00000030",
 		"menubar.selectionBorder": "#00000030",
 		"menubar.selectionForeground": "#80cb98",
-		"minimap.findMatchHighlight": "#69c48e",
-		"minimap.selectionHighlight": "#75e2a2",
+		"minimap.findMatchHighlight": "#dac55a71",
+		"minimap.selectionHighlight": "#dac55a71",
 		"notificationLink.foreground": "#80cb9e",
 		"notifications.background": "#212121",
 		"notifications.foreground": "#eeffff",
@@ -184,6 +184,8 @@
 		"titleBar.inactiveBackground": "#1a1a1a",
 		"titleBar.inactiveForeground": "#848484",
 		"widget.shadow": "#00000030",
+		"editorInlayHint.background": "#19191900",
+		"editorInlayHint.foreground": "#946969"
 	},
 	"tokenColors": [
 		{
@@ -470,6 +472,7 @@
 		},
 		{
 			"scope": [
+				"keyword.operator.class",
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
@@ -478,6 +481,7 @@
 				"keyword.operator.logical.python"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#56d68b"
 			}
 		},
@@ -536,9 +540,17 @@
 		},
 		{
 			"scope": [
-				"meta.return-type",
 				"support.class",
 				"support.type",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"scope": [
+				"entity.return-type",
 				"entity.name.type",
 				"entity.name.class",
 				"storage.type.numeric.go",
@@ -568,6 +580,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
+				"fontStyle": "underline",
 				"foreground": "#4EC9B0"
 			}
 		},
@@ -578,10 +591,18 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#4EC9B0",
+				"fontStyle": "italic underline"
 			}
 		},
 		{
@@ -720,6 +741,7 @@
 		{
 			"scope": "storage.type",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#DB6363"
 			}
 		},
@@ -750,6 +772,7 @@
 		{
 			"scope": "entity.other.attribute-name.html, entity.name.tag.html, entity.other.attribute-name.jsx, entity.name.tag.localname.xml, support.type.property-name.css, support.type.vendored.property-name.css, meta.object-literal.key.ts, entity.other.attribute-name.css, meta.object-literal.key.js, entity.other.attribute-name.js.jsx, variable.other.object.js, variable.other.object.property.js",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#9DCCC0"
 			}
 		},
@@ -762,7 +785,14 @@
 		{
 			"scope": "support.type.property-name.media.css, support.type.property-name.json.comments, support.type.property-name.json, variable.other.property.js, variable.parameter.js, variable.parameter.graphql, variable.other.readwrite.js, variable.graphql",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#E6E6E6"
+			}
+		},
+		{
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
 			}
 		},
 		{
@@ -780,6 +810,7 @@
 		{
 			"scope": "entity.name.type.class.python, entity.other.inherited-class.python",
 			"settings": {
+				"fontStyle": "italic underline",
 				"foreground": "#d48787"
 			}
 		},

@@ -1,14 +1,14 @@
 {
   "name": "christmas-night",
   "displayName": "Christmas Night",
-  "description": "🍷 Cocktail made from cookie crumbs from Santa Claus's beard, Grinch's hair, yesterday's milk, a whisper of star dust, liquid snowflakes, elf's laughter, snowman's carrot and deer's antlers. Bon appetit!",
+  "description": "🍷 Cocktail Made from Cookie Crumbs from Santa Claus's Beard, the Grinch's Hair, Yesterday Milk, a Whisper of Stardust, Liquid Snowflakes, an Elf's Laughter, a Snowman's Carrot, and a Deer's Antlers. Bon appétit!",
   "version": "0.1.1",
   "engines": {
     "vscode": "^1.83.0"
   },
   "license": "MIT",
   "publisher": "RuslanRystsov",
-  "icon": "icon.png",
+  "icon": "./assets/icons/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/BlueRexPY/ChristmasNight"
