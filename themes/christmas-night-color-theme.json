@@ -125,7 +125,7 @@
 		"scrollbarSlider.activeBackground": "#5bb18c",
 		"scrollbarSlider.background": "#eeffff20",
 		"scrollbarSlider.hoverBackground": "#eeffff10",
-		"selection.background": "#eeffff",
+		"selection.background": "#f4ffee3a",
 		"settings.checkboxBackground": "#1a1a1a",
 		"settings.checkboxForeground": "#eeffff",
 		"settings.dropdownBackground": "#1a1a1a",
