@@ -2,7 +2,7 @@
   "name": "christmas-night",
   "displayName": "Christmas Night",
   "description": "🍷 Cocktail Made from Cookie Crumbs from Santa Claus's Beard, the Grinch's Hair, Yesterday Milk, a Whisper of Stardust, Liquid Snowflakes, an Elf's Laughter, a Snowman's Carrot, and a Deer's Antlers. Bon appétit!",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "engines": {
     "vscode": "^1.83.0"
   },
